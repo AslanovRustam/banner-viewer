@@ -1,0 +1,22 @@
+.label {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin-top: 30px;
+}
+.hiddenInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.input {
+  width: 395px;
+  background: #1a1a1a;
+  padding: 12px 22px;
+  color: #fff;
+}
